@@ -11,80 +11,82 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="font-rubik relative bg-[#f5f3f7] overflow-x-hidden w-full ">
-  <div class="w-150 h-200 rounded-b-full z-1 bg-gradient-to-b from-[#e942ff] to-[#8f5cff] absolute -top-30 -left-75 lg:-left-20 lg:top-0 "></div>
-  <div class=" lg:flex-row lg:py-20 px-50 lg:pl-90 max-w-400 flex flex-col items-center justify-between  gap-20 py-25">
-    <div class="self-center  border-13 border-white z-2 bg-[#f5f3f7] w-[350px] rounded-4xl shadow-2xl">
-      <div class=" flex flex-col relative">
-        <div class="bg-white rounded-b-3xl  absolute -top-3 self-center  w-[60%] h-10 text-center"></div>
-        <div class="bg-gradient-to-r from-[#8f5cff] to-[#e942ff] rounded-t-4xl rounded-b-xl ">
-          <div class="mt-4 p-5 flex justify-between">
-            <div class="flex gap-3 items-center">
-              <div class="text-white text-xl font-bold "><i class="fa fa-angle-left "></i></div>
-              <img src="./images/avatar.jpg" alt="avatar" class="rounded-full border-2 border-white w-9 h-9 " />
-              <div>
-                <h2 class="text-white font-bold text-md">Samuel Green</h2>
-                <p class="text-[#d5b5fc] text-xs ">Available to Walk</p>
+<body class="font-rubik bg-[#f5f3f7] w-full ">
+  <div class="relative w-full h-full overflow-hidden min-h-screen">
+    <div class="bg-gradient-to-b from-[#e942ff] to-[#8f5cff] rounded-b-full h-[50rem] w-[30rem] absolute z-0 -top-40 -left-70 lg:-left-10 lg:-top-10"></div>
+    <div class="relative z-10 lg:flex-row lg:py-20 lg:px-50 lg:pl-90 max-w-400 flex flex-col items-center lg:-left-30 justify-between  gap-20 py-25 ">
+      <div class="self-center border-13 border-white z-2 bg-[#f5f3f7] w-80 rounded-4xl shadow-2xl  ">
+        <div class=" flex flex-col relative">
+          <div class="bg-white rounded-b-3xl  absolute -top-3 self-center w-[60%] h-10 text-center"></div>
+          <div class="bg-gradient-to-r from-[#8f5cff] to-[#e942ff] rounded-t-4xl rounded-b-xl ">
+            <div class="mt-4 p-5 flex justify-between">
+              <div class="flex gap-3 items-center">
+                <div class="text-white text-xl font-bold "><i class="fa fa-angle-left "></i></div>
+                <img src="./images/avatar.jpg" alt="avatar" class="rounded-full border-2 border-white w-9 h-9 " />
+                <div>
+                  <h2 class="text-white font-bold text-md">Samuel Green</h2>
+                  <p class="text-[#d5b5fc] text-xs ">Available to Walk</p>
+                </div>
               </div>
+              <div class="self-center text-white"><i class="fa fa-ellipsis-v "></i></div>
             </div>
-            <div class="self-center text-white"><i class="fa fa-ellipsis-v "></i></div>
+          </div>
+        </div>
+        <div class="flex flex-col items-start gap-2 p-3 ">
+          <div class="text-[#9140c7] bg-[#ede6f1] w-[65%] rounded-r-2xl rounded-t-xl rounded-bl-sm p-2 text-xs">
+            That sounds great. I’d be happy with that.
+          </div>
+          <div class="text-[#9140c7] bg-[#ede6f1] w-[65%] rounded-r-2xl rounded-t-xl rounded-bl-sm p-2 text-xs">
+            Could you send over some pictures of your dog, please?
+          </div>   
+          <div class="flex flex-col gap-2 items-end self-end">
+            <div class="flex gap-2 ">
+              <img src="./images/dog-image-1.jpg" alt="Dog" class="shadow-lg w-15 h-15 rounded-2xl" />
+              <img src="./images/dog-image-2.jpg" alt="Dog 2" class="shadow-lg w-15 h-15 rounded-2xl" />
+              <img src="./images/dog-image-3.jpg" alt="Dog 3" class="shadow-lg w-15 h-15 rounded-2xl" />
+            </div>
+            <div class="text-[#42255d] bg-white rounded-l-2xl w-[75%] rounded-t-xl rounded-br-sm shadow-lg p-2 text-xs">
+              Here are a few pictures. She’s a happy girl!
+            </div>
+            <div class="text-[#42255d] bg-white  rounded-l-2xl rounded-t-xl rounded-br-sm shadow-lg p-2 text-xs">
+              Can you make it?
+            </div>
+          </div>
+          <div class="text-[#9140c7] bg-[#ede6f1] rounded-r-2xl rounded-t-xl rounded-bl-sm p-2 text-xs w-[65%] ">
+            She looks so happy! The time we discussed works. How long shall I take her out for?
+          </div>
+          <div class="flex flex-col gap-2 w-[80%] text-white text-xs">
+            <div class="flex justify-between items-baseline pr-5 rounded-r-2xl rounded-t-xl rounded-bl-sm bg-gradient-to-l from-[#8f5cff] to-[#e942ff] px-3 py-2">
+              <div class=" flex gap-3 items-center"><input class="accent-purple-600 w-5 h-5" checked type="radio" name="walk" value="30min" id="min"><label for="min"> 30 minute walk</label></div>
+              <div class="font-bold text-lg">$29</div>
+            </div>
+            <div class="flex justify-between items-baseline pr-5 rounded-r-2xl rounded-t-xl rounded-bl-sm bg-gradient-to-l from-[#8f5cff] to-[#e942ff] px-3 py-2">
+              <div class="flex gap-3 items-center"><input class="accent-purple-600 w-5 h-5" type="radio" name="walk" value="1hour" id="hr"><label for="hr"> 1 hour walk</label></div>
+              <div class="font-bold text-lg">$49</div>
+            </div>
+          </div>
+          <div class="bg-white rounded-3xl w-full justify-between flex p-2  gap-2">
+            <input type="text" placeholder="Type a message..." class="text-[#d9e4e8] text-xs pl-5 font-extrabold  focus:outline-none  " />
+            <button class="bg-[#5d3187] rounded-full  w-8 h-8 "><i class="fa fa-angle-right text-white font-bold"></i></button>
           </div>
         </div>
       </div>
-      <div class="flex flex-col items-start gap-2 p-3 ">
-        <div class="text-[#9140c7] bg-[#ede6f1] w-[65%] rounded-r-2xl rounded-t-xl rounded-bl-sm p-2 text-xs">
-          That sounds great. I’d be happy with that.
-        </div>
-        <div class="text-[#9140c7] bg-[#ede6f1] w-[65%] rounded-r-2xl rounded-t-xl rounded-bl-sm p-2 text-xs">
-          Could you send over some pictures of your dog, please?
-        </div>   
-        <div class="flex flex-col gap-2 items-end self-end">
-          <div class="flex gap-2 ">
-            <img src="./images/dog-image-1.jpg" alt="Dog" class="shadow-lg w-15 h-15 rounded-2xl" />
-            <img src="./images/dog-image-2.jpg" alt="Dog 2" class="shadow-lg w-15 h-15 rounded-2xl" />
-            <img src="./images/dog-image-3.jpg" alt="Dog 3" class="shadow-lg w-15 h-15 rounded-2xl" />
-          </div>
-          <div class="text-[#42255d] bg-white rounded-l-2xl rounded-t-xl rounded-br-sm shadow-lg p-2 text-xs">
-            Here are a few pictures. She’s a happy girl!
-          </div>
-          <div class="text-[#42255d] bg-white  rounded-l-2xl rounded-t-xl rounded-br-sm shadow-lg p-2 text-xs">
-            Can you make it?
-          </div>
-        </div>
-        <div class="text-[#9140c7] bg-[#ede6f1] rounded-r-2xl rounded-t-xl rounded-bl-sm p-2 text-xs w-[65%] ">
-          She looks so happy! The time we discussed works. How long shall I take her out for?
-        </div>
-        <div class="flex flex-col gap-2 w-[80%] text-white text-xs">
-          <div class="flex justify-between items-baseline pr-5 rounded-r-2xl rounded-t-xl rounded-bl-sm bg-gradient-to-l from-[#8f5cff] to-[#e942ff] px-3 py-2">
-             <div class=" flex gap-3 items-center"><input class="accent-purple-600 w-5 h-5" checked type="radio" name="walk" value="30min" id="min"><label for="min"> 30 minute walk</label></div>
-             <div class="font-bold text-lg">$29</div>
-          </div>
-          <div class="flex justify-between items-baseline pr-5 rounded-r-2xl rounded-t-xl rounded-bl-sm bg-gradient-to-l from-[#8f5cff] to-[#e942ff] px-3 py-2">
-            <div class="flex gap-3 items-center"><input class="accent-purple-600 w-5 h-5" type="radio" name="walk" value="1hour" id="hr"><label for="hr"> 1 hour walk</label></div>
-            <div class="font-bold text-lg">$49</div>
-          </div>
-        </div>
-        <div class="bg-white rounded-3xl w-full justify-between flex p-2  gap-2">
-          <input type="text" placeholder="Type a message..." class="text-[#d9e4e8] text-xs pl-5 font-extrabold  focus:outline-none  " />
-          <button class="bg-[#5d3187] rounded-full  w-8 h-8 "><i class="fa fa-angle-right text-white font-bold"></i></button>
+      <div class="flex flex-col items-center lg:items-start justify-center gap-5 z-2 ">
+        <div><h2 class="text-4xl lg:text-5xl font-bold text-[#5d3187] ">Simple booking</h2></div>
+        <div class="lg:text-left text-center max-w-100  lg:max-w-150 lg:min-w-100">
+          <p class="lg:text-xl text-sl leading-8 text-[#a39ca7] font-semibold">
+            Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+            discuss arrangements and make bookings. Once the walk has been completed you can rate 
+            your walker and book again all through the chat.
+          </p>
+        </div>  
+        <div class="lg:text-left text-center text-sl lg:text-lg z-2">
+          Challenge by <a class="text-purple-600 hover:underline underline-offset-5" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <br><a class="text-purple-600 hover:underline underline-offset-5" href="#">Muhammad Shehu</a>.
         </div>
       </div>
     </div>
-    <div class="flex flex-col items-center lg:items-start justify-center gap-10 z-2">
-      <div><h2 class="text-5xl font-bold text-[#5d3187] ">Simple booking</h2></div>
-      <div class="lg:text-left text-center w-[390px] lg:w-[500px]">
-        <p class="text-xl text-[#a39ca7] font-semibold tracking-wide">
-          Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-          discuss arrangements and make bookings. Once the walk has been completed you can rate 
-          your walker and book again all through the chat.
-        </p>
-      </div>  
-      <div class="lg:text-left text-center text-gray-500 z-2">
-        Challenge by <a class="text-purple-600 hover:underline underline-offset-5" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <br><a class="text-purple-600 hover:underline underline-offset-5" href="#">Muhammad Shehu</a>.
-      </div>
-    </div>
-    <div class="w-150 h-190 rounded-t-full z-1 bg-[#ededed] absolute -bottom-35 -right-85 lg:-right-70 "></div>
+    <div class="bg-[#ededed] rounded-t-full h-[50rem] w-[30rem] absolute z-0 -bottom-40 -right-70"></div>
   </div>
 </body>
 </html>
